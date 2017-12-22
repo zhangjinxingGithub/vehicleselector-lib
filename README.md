@@ -1,14 +1,14 @@
-# chejianer-lib
+# vehicleselector-lib
   个人前端组件库---一款基于react环境的前端组件库
 ## 安装
 
 ```bash
-npm install chejianer-lib
+npm install vehicleselector-lib
 ```
 ## 使用说明
 
 ```jsx
-import { CJSelect } from 'chejianer-lib';
+import { CJSelect } from 'vehicleselector-lib';
 ReactDOM.render(<CJSelect />, mountNode);
 ```
 
@@ -16,7 +16,7 @@ ReactDOM.render(<CJSelect />, mountNode);
 ```js
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
-import {CJSelect} from 'chejianer-lib';
+import {CJSelect} from 'vehicleselector-lib';
 
 //数据源
 let options=[
