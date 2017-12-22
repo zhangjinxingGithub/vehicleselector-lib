@@ -1,0 +1,65 @@
+{
+  "name": "vehicleselector-lib",
+  "version": "1.0.1",
+  "description": "车型选择器组件库",
+  "main": "index.js",
+  "scripts": {
+    "convert": "babel components -d dist/components",
+    "webpack": "webpack --progress --colors --config webpack.config.js",
+    "start": "webpack-dev-server --progress --colors --hot --inline",
+    "build": "npm run webpack &&  npm run convert",
+    "run": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangjinxingGithub/vehicleselector-lib.git"
+  },
+  "keywords": [
+    "车型选择器",
+    "前端",
+    "react",
+    "component"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "zhangjinxing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangjinxingGithub/vehicleselector-lib/issues"
+  },
+  "homepage": "https://github.com/zhangjinxingGithub/vehicleselector-lib#readme",
+  "dependencies": {
+    "autoprefixer": "^7.2.1",
+    "autoprefixer-core": "^6.0.1",
+    "css-loader": "^0.28.7",
+    "jquery": "^3.2.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "popper.js": "^1.12.9",
+    "postcss-color-rebeccapurple": "^3.0.0",
+    "postcss-loader": "^2.0.9",
+    "precss": "^2.0.0",
+    "prop-types": "^15.6.0",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2"
+  },
+  
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-import": "^1.6.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.2.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.9.0",
+    "webpack-dev-server": "^2.9.5"
+  }
+}

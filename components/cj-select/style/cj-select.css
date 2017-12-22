@@ -1,0 +1,224 @@
+.cj-select{
+    font-size: 14px;
+    outline: 0;
+    width: 446px;
+}
+.cj-select ul{
+    list-style-type: none;
+}
+.cj-select li{
+    float:left;
+}
+.cj-select ::-webkit-scrollbar
+{
+    width: 6px;
+}
+.cj-select ::-webkit-scrollbar-track
+{
+    border-radius: 100px;
+}
+.cj-select ::-webkit-scrollbar-thumb
+{
+    border-radius: 100px;
+    background-color: #d8d8d8;
+}
+.cj-select .cj-select-input,
+.cj-select .cj-select-dropdown,
+.cj-select .cj-select-input-new,
+.cj-select .cj-select-input-focus,
+.cj-select .cj-select-input-new-focus{
+    width:446px;
+    border-radius:4px !important;
+    background-color:#fff !important;
+    border: solid 1px #d8dde6 !important; 
+}
+.cj-select .cj-select-input,
+.cj-select .cj-select-input-new,
+.cj-select .cj-select-input-focus,
+.cj-select .cj-select-input-new-focus{
+    min-height:32px;
+    cursor: text;
+    position: absolute;
+    height: auto;
+    padding-left: 3px;
+}
+.cj-select .cj-select-input-focus,.cj-select .cj-select-input-new-focus{
+    background-color: #f4f6f9;
+    box-shadow: 0 0 3px 0 rgba(0, 118, 222, 0.5);
+    border: solid 1px #0076de !important;
+    padding-left: 3px;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.cj-select .cj-select-dropdown{
+    height: 324px;
+    box-shadow: 0 2px 3px 0 #a8b7c7;
+    cursor: pointer;
+    padding:0 !important;
+    position: absolute;
+    overflow: hidden;
+}
+.cj-select .cj-select-input::after{
+    display: none !important;
+}
+.cj-select .cj-select-input-new::after{
+    position: absolute;
+    float: right;
+    right:13px;
+    top: 14px;
+}
+.cj-select .word-list{
+    padding:5px 16px;
+    height: 64px;
+    margin-bottom:0;
+}
+.cj-select .cj-select-dropdown li{
+    margin-right: 5px;
+    margin-bottom:5px;
+}
+.cj-select .word-item{
+    width:24px;
+    height: 24px;
+}
+.cj-select .btn-word,.cj-select .btn-word-select{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: solid 1px #d8dde6;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    color: #0070d2;
+    padding: 0 !important;
+}
+.cj-select .btn-word:hover{
+    border-color: #0070d2;
+}
+.cj-select .btn-word-select{
+    background-color: #e0e5ee !important;
+    color:#16325c !important;
+    outline: 0 !important;
+}
+.cj-select .line{
+    width: 446px;
+    border: solid 1px #e0e5ee;
+}
+
+.cj-select .modal-list{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 254px;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.cj-select .modal-item-con{
+    height:auto;
+    float: left;
+}
+.cj-select .modal-item-con-list{
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 87px;
+    margin-bottom: 0 !important;
+}
+.cj-select .modal-item-title{
+    line-height: 1.5;
+    font-size: 12px;
+    text-align: left;
+    color: #54698d;
+    padding-left: 10px;
+}
+.cj-select .item-img{
+    text-align: center;
+    width:54px;
+    height:54px;
+    margin:auto;
+}
+.cj-select .item-img:hover{
+    background-color: #f4f6f9;
+}
+.cj-select .brand-img{
+    width:50px;
+    height:50px;
+    padding: 2px;
+    position: relative;
+    margin: 0;
+    float: none;
+}
+.cj-select .item-name{
+    text-align: center;
+    line-height: 20px;
+}
+.cj-select .item-name-span{
+    font-size: 12px;
+    color: #16325c;
+}
+.cj-select .item-name-span-select{
+    font-size: 12px;
+    color: #999999;
+}
+.cj-select .modal-item-con-detail{
+    margin:4px 18px 6px 0 !important;
+}
+
+.cj-select .select-list{
+    padding-left: 3px;
+    padding-top: 2px;
+    position: relative;
+    width: 416px;
+}
+.cj-select .select-item{
+    width: 87px;
+    height: 26px;
+    border-radius: 4px;
+    background-color: #e0e5ee;
+    border: solid 1px #acb8cc;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.cj-select .select-item-con{
+    width:87px;
+    height:26px;
+}
+.cj-select .select-item-con button:focus{
+    outline: 0 !important;
+}
+.cj-select .txt-con{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: calc(100% - 28px);
+    float: left;
+    padding-top: 1px;
+}
+.cj-select .select-txt{
+    width: 55px;
+    height: 18px;
+    font-family: PingFangSC;
+    font-size: 13px;
+    text-align: left;
+    color: #16325c;
+    padding: 4px 25px 4px 7px;
+}
+.btnClose{
+    font-weight: 900;
+    font-size: larger;
+    cursor: pointer;
+    position: absolute;
+    line-height: 21px;
+    margin-left: 9px;
+}

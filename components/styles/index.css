@@ -1,0 +1,24 @@
+@font-face {
+    font-family: anticon;
+    src: url("https://at.alicdn.com/t/font_zck90zmlh7hf47vi.eot");
+    src: url("https://at.alicdn.com/t/font_zck90zmlh7hf47vi.eot?#iefix") format("embedded-opentype"),url("https://at.alicdn.com/t/font_zck90zmlh7hf47vi.woff") format("woff"),url("https://at.alicdn.com/t/font_zck90zmlh7hf47vi.ttf") format("truetype"),url("https://at.alicdn.com/t/font_zck90zmlh7hf47vi.svg#iconfont") format("svg")
+}
+
+body{
+    margin: 0;
+    font-family: anticon;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    display: block;
+}
+*,::after,::before{
+    box-sizing: border-box;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

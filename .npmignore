@@ -1,0 +1,8 @@
+/node_modules
+/components
+/.babelrc
+/.gitignore
+/.npmignore
+/package-lock.json
+/webpack.config.js
+/.idea
